@@ -71,7 +71,11 @@
 		</dependency>
 	</dependencies>
 
+
+
 	<build>
+		<finalName>docker-jenkins-integration-sample</finalName>
+
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -84,7 +88,7 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
-					<finalName>docker-jenkins-integration-sample</finalName>
+
 				</configuration>
 			</plugin>
 		</plugins>
